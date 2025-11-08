@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import NotebookRenderer from "./NotebookRenderer";
 
 // Simple Markdown -> HTML (minimal subset)
 function simpleMarkdownToHtml(md) {
